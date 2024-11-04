@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Nsight CUDA Debugging",
+            "type": "cuda-gdb",
+            "request": "launch",
+            "program": "${workspaceFolder}/ParticleSimulation",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "environment": [],
+            "externalConsole": false
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build CUDA Project",
+        "type": "shell",
+        "command": "nvcc",
+        "args": [
+          "-o",
+          "ParticleSimulation.exe",
+          "main.cu"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        },
+        "problemMatcher": "$gcc"
+      }
+    ]
+  }
+  

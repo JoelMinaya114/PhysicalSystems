@@ -1,0 +1,106 @@
+# Ignore object files, compiled binaries, and libraries
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.so
+*.a
+*.pdb
+*.ilk
+*.idb
+*.class
+*.msi
+*.msm
+*.msp
+*.suo
+*.natvis
+
+# Ignore CUDA-specific files
+*.cu.o
+*.ptx
+*.cubin
+
+# Ignore build directories
+build/
+Build/
+bin/
+Bin/
+Debug/
+debug/
+Release/
+release/
+out/
+Out/
+
+# Ignore Visual Studio Code settings and extensions
+.vscode/
+*.code-workspace
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Ignore logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Ignore temporary and backup files
+*~
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.old
+*.orig
+*.pyc
+*.class
+
+# Ignore CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CMakeLists.txt.user
+CMakeUserPresets.json
+CMakePresets.json
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+*.sln
+*.vcxproj*
+*.user
+*.ncb
+*.sdf
+*.opensdf
+*.suo
+.ipch/
+*.ipdb
+*.iobj
+
+# Ignore results and data directories if they contain generated data
+results/
+data/
+
+# Ignore Python virtual environments (if used)
+env/
+venv/
+
+# Ignore coverage reports
+coverage/
+*.gcda
+*.gcno
+*.gcov
+
+# Ignore any files in the 'docs' directory that are generated
+docs/*.html
+docs/*.pdf
+
+# Ignore custom files (add any other files or patterns you want to exclude)
